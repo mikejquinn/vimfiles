@@ -1,4 +1,5 @@
 set number
+set ic
 
 set nocompatible
 syntax on
@@ -15,7 +16,7 @@ colorscheme vividchalk
 
 let mapleader = ','
 map <Leader>t :FuzzyFinderTextMate<CR>
-map <Leader>r :FuzzyFinderTextMateReload<CR>
+map <Leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 map <Leader>d :NERDTreeToggle<CR>
 
 
