@@ -14,6 +14,7 @@ augroup myfiletypes
   autocmd FileType python set tabstop=4 sw=4 et!
   autocmd FileType javascript set sw=2 ts=2 sts=2 et
   autocmd FileType java set sw=2 ts=2 sts=2 et
+  autocmd FileType php set ts=4 sw=4 et!
 
 augroup END
 
