@@ -22,7 +22,8 @@ augroup xml
 	autocmd BufReadPre,FileReadPre	build.xml set ts=4
 augroup END
 
-colorscheme vividchalk
+set background=dark
+colorscheme solarized
 
 let mapleader = ','
 map <Leader>t :FuzzyFinderTextMate<CR>
@@ -33,3 +34,6 @@ map <Leader>d :NERDTreeToggle<CR>
 let g:fuzzy_ignore='tmp/**,vendor/rails/**,vendor/gems/**,vendor/plugins/**'
 
 set hls " highlight search
+
+set t_Co=256
+set guifont=Consolas:h15
