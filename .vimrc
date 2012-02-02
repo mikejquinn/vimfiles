@@ -9,6 +9,7 @@ augroup myfiletypes
   " Clear old autocmds in group
   autocmd!
   " autoindent with two spaces, always expand tabs
+  au BufRead,BufNewFile *.jbuilder set filetype=ruby
   autocmd FileType html set ai sw=2 sts=2 et
   autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
   autocmd FileType python set tabstop=4 sw=4 et!
