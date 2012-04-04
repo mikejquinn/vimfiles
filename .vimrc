@@ -12,6 +12,7 @@ augroup myfiletypes
   au BufRead,BufNewFile *.jbuilder set filetype=ruby
   autocmd FileType html set ai sw=2 sts=2 et
   autocmd FileType ruby,eruby,yaml set ai sw=2 sts=2 et
+  autocmd FileType coffee set ai sw=2 sts=2 et
   autocmd FileType python set tabstop=4 sw=4 et!
   autocmd FileType javascript set sw=2 ts=2 sts=2 et
   autocmd FileType java set sw=2 ts=2 sts=2 et
