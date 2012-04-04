@@ -1,7 +1,8 @@
 set number
 set ic
-
 set nocompatible
+
+call pathogen#infect()
 syntax on
 filetype plugin indent on
 
