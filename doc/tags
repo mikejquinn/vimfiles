@@ -24,6 +24,7 @@
 :NERDTreeFromBookmark	NERD_tree.txt	/*:NERDTreeFromBookmark*
 :NERDTreeMirror	NERD_tree.txt	/*:NERDTreeMirror*
 :NERDTreeToggle	NERD_tree.txt	/*:NERDTreeToggle*
+:ToggleRaibowParenthesis	rainbow_parenthsis.txt	/*:ToggleRaibowParenthesis*
 NERDTree	NERD_tree.txt	/*NERDTree*
 NERDTree-?	NERD_tree.txt	/*NERDTree-?*
 NERDTree-A	NERD_tree.txt	/*NERDTree-A*
@@ -83,3 +84,15 @@ NERDTreeOptionSummary	NERD_tree.txt	/*NERDTreeOptionSummary*
 NERDTreeOptions	NERD_tree.txt	/*NERDTreeOptions*
 NERDTreeRender()	NERD_tree.txt	/*NERDTreeRender()*
 NERD_tree.txt	NERD_tree.txt	/*NERD_tree.txt*
+rainbow_parenthsis#Activate()	rainbow_parenthsis.txt	/*rainbow_parenthsis#Activate()*
+rainbow_parenthsis#Clear()	rainbow_parenthsis.txt	/*rainbow_parenthsis#Clear()*
+rainbow_parenthsis#LoadBraces()	rainbow_parenthsis.txt	/*rainbow_parenthsis#LoadBraces()*
+rainbow_parenthsis#LoadChevrons()	rainbow_parenthsis.txt	/*rainbow_parenthsis#LoadChevrons()*
+rainbow_parenthsis#LoadRound()	rainbow_parenthsis.txt	/*rainbow_parenthsis#LoadRound()*
+rainbow_parenthsis#LoadSquare()	rainbow_parenthsis.txt	/*rainbow_parenthsis#LoadSquare()*
+rainbow_parenthsis#Toggle()	rainbow_parenthsis.txt	/*rainbow_parenthsis#Toggle()*
+rainbow_parenthsis-about	rainbow_parenthsis.txt	/*rainbow_parenthsis-about*
+rainbow_parenthsis-commands	rainbow_parenthsis.txt	/*rainbow_parenthsis-commands*
+rainbow_parenthsis-configure	rainbow_parenthsis.txt	/*rainbow_parenthsis-configure*
+rainbow_parenthsis-functions	rainbow_parenthsis.txt	/*rainbow_parenthsis-functions*
+rainbow_parenthsis.txt	rainbow_parenthsis.txt	/*rainbow_parenthsis.txt*
