@@ -96,7 +96,7 @@ let g:fuzzy_ignore='tmp/**,vendor/rails/**,vendor/gems/**,vendor/plugins/**'
 set hls " highlight search
 
 set t_Co=256
-set guifont=Consolas:h15
+set guifont=Consolas:h12
 
 " Strip trailing whitespace on save
 " http://stackoverflow.com/q/356126
