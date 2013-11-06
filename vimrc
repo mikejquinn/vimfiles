@@ -58,8 +58,6 @@ set gdefault " Apply substitutions globally on a line.
 
 filetype plugin indent on
 
-"nnoremap ,m :w <BAR> !lessc % > %:t:r.css<CR><space>
-
 augroup myfiletypes
   " Clear old autocmds in group
   autocmd!
@@ -89,6 +87,8 @@ let mapleader = ','
 map <Leader>t :FuzzyFinderTextMate<CR>
 map <Leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 map <Leader>d :NERDTreeToggle<CR>
+" compile .less to .css, lessc is required
+map <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 
 
 let g:fuzzy_ignore='tmp/**,vendor/rails/**,vendor/gems/**,vendor/plugins/**'
