@@ -1,13 +1,13 @@
 "Pathogen for plugins
 filetype off
 call pathogen#infect()
+filetype plugin indent on
 
 set nocompatible " Use smarter defaults than Vi's.
 set nobackup     " Don't write out backup files.
 set noswapfile
 set nowritebackup
 set undodir=~/.vim/tmp/undo/ " store persistent undo files here
-filetype plugin on
 
 " Chrome
 set encoding=utf-8
@@ -56,12 +56,10 @@ set smartcase " if you include an uppercase while searching, become case sensiti
 set incsearch " show search matches as you type.
 set gdefault " Apply substitutions globally on a line.
 
-filetype plugin indent on
-
 augroup myfiletypes
   " Clear old autocmds in group
   autocmd!
-  au BufRead,BufNewFile *.jbuilder set filetype=ruby
+  autocmd BufRead,BufNewFile *.jbuilder set filetype=ruby
   autocmd FileType fun set ai sw=2 sts=2 et filetype=funtype
   autocmd FileType html set ai sw=2 sts=2 et
   autocmd FileType erb set ai sw=2 sts=2 et
@@ -87,11 +85,22 @@ let mapleader = ','
 map <Leader>t :FuzzyFinderTextMate<CR>
 map <Leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 map <Leader>d :NERDTreeToggle<CR>
+map <Leader>evh :sp $MYVIMRC<CR>
+map <Leader>evf :vi $MYVIMRC<CR>
+map <Leader>evv :vsp $MYVIMRC<CR>
+map <Leader>qv :wq<CR> :source $MYVIMRC<CR>
+map <Leader>sv :source $MYVIMRC<CR>
 " compile .less to .css, lessc is required
 map <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
-
-
+map qq :q<CR>
+map <C-j> :bprevious<CR>
+map <C-k> :bnext<CR>
 let g:fuzzy_ignore='tmp/**,vendor/rails/**,vendor/gems/**,vendor/plugins/**'
+
+nnoremap H 0
+inoremap jk <ESC>
+iabbrev adn and
+iabbrev @@ mquinn@gloto.com
 
 set hls " highlight search
 
