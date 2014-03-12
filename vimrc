@@ -92,6 +92,7 @@ map <Leader>v :vs<CR>
 map <Leader>h :split<CR>
 " compile .less to .css, lessc is required
 map <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
+map <C-n> :NumbersToggle<CR>
 map qq :q<CR>
 map <C-j> :bprevious<CR>
 map <C-k> :bnext<CR>
