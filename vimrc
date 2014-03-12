@@ -82,8 +82,6 @@ set background=dark
 colorscheme mustang
 
 let mapleader = ','
-map <Leader>t :FuzzyFinderTextMate<CR>
-map <Leader>r :FuzzyFinderTextMateRefreshFiles<CR>
 map <Leader>d :NERDTreeToggle<CR>
 map <Leader>evh :sp $MYVIMRC<CR>
 map <Leader>evf :vi $MYVIMRC<CR>
@@ -119,3 +117,5 @@ autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
 
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%111v.\+/
+
+:set wildignore+=*.o,*.obj,.git,*.class,*.log
