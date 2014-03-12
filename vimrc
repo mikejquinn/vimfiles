@@ -88,6 +88,8 @@ map <Leader>evf :vi $MYVIMRC<CR>
 map <Leader>evv :vsp $MYVIMRC<CR>
 map <Leader>qv :wq<CR> :source $MYVIMRC<CR>
 map <Leader>sv :source $MYVIMRC<CR>
+map <Leader>v :vs<CR>
+map <Leader>h :split<CR>
 " compile .less to .css, lessc is required
 map <Leader>m :w <BAR> !lessc % > %:t:r.css<CR><space>
 map qq :q<CR>
