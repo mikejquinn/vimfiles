@@ -84,7 +84,7 @@ colorscheme mustang
 let mapleader = ','
 map <Leader>d :NERDTreeToggle<CR>
 map <Leader>evh :sp $MYVIMRC<CR>
-map <Leader>evf :vi $MYVIMRC<CR>
+map <Leader>ev :vi $MYVIMRC<CR>
 map <Leader>evv :vsp $MYVIMRC<CR>
 map <Leader>qv :wq<CR> :source $MYVIMRC<CR>
 map <Leader>sv :source $MYVIMRC<CR>
